@@ -1,0 +1,138 @@
+.question h3 {
+  margin-top: 10px;
+}
+
+.answer_container {
+  /* padding:  0px 0px;  */
+  width: 100%;
+  flex: 1;
+}
+
+.answer_wrapper {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.answer_wrapper h4 {
+  margin-left: 40px;
+}
+
+.answer_header {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-top: 5px;
+}
+
+.answer_header span {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #15443b;
+  font-weight: 500;
+}
+
+
+.answer_question {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.answer_fetch:hover .answerline {
+  width: 70%;
+  transition: 1000ms;
+}
+
+.answerline {
+  height: 3px;
+  background-color: #ff8500;
+  margin-left: 0px;
+  margin-top: 5px;
+  width: 50%;
+  transition: 1000ms;
+}
+
+.answer_community {
+  margin: 30px 0;
+  border-top: 1px rgb(182, 182, 182) solid;
+  border-bottom: 1px rgb(182, 182, 182) solid;
+  padding: 20px 0;
+}
+
+.answer_shadow {
+  box-shadow: 2px 2px 2px 2px rgb(92, 89, 89);
+}
+
+
+
+.answer_line {
+  border-top: 12px gray solid;
+}
+
+.Answer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px rgb(182, 182, 182) solid;
+  padding: 5px 20px;
+}
+
+.Answer:hover {
+  /* box-shadow: 0px 2px 2px 0px rgb(29, 28, 28); */
+
+  background-color: #dddddd;
+}
+
+
+.answer_avatar {
+  margin-right: 30px;
+  text-align: center;
+}
+
+
+
+.answer_question {
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.answer_headtitle2 {
+  border-radius: 20px;
+  background-color: white;
+  width: 90%;
+  margin-bottom: 50px;
+  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.answer_description {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #948e8e;
+  border-radius: 10px;
+  resize: none;
+}
+
+.answer_button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #516cf0;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.answer_button:hover {
+  cursor: pointer;
+  background-color: #fe8402;
+  transition: 300ms;
+}
